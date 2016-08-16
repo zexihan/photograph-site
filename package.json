@@ -1,0 +1,38 @@
+{
+  "name": "surualv.github.io",
+  "version": "1.0.0",
+  "description": "su blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surualv/surualv.github.io"
+  },
+  "keywords": [
+    "su",
+    "blog"
+  ],
+  "author": "SuruAlv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surualv/surualv.github.io/issues"
+  },
+  "homepage": "https://github.com/surualv/surualv.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-benchmark": "^1.1.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-eslint": "^1.1.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "imagemin-jpegtran": "^4.3.2",
+    "imagemin-optipng": "^4.3.0"
+  }
+}
