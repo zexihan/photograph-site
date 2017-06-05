@@ -13,6 +13,23 @@
     <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto"
             src="./OneRepublic-Counting-Stars.mp3"></audio>
     <meta name="baidu-site-verification" content="q1OIAKRalV" />
+    
+<script type="text/javascript">
+Date.prototype.diff = function (date)
+{
+  return (date.getTime () - this.getTime ()) / (24 * 60 * 60 * 1000);
+}
+
+onload = function ()
+{
+  var now = new Date ('2017/03/06 00:00:00');
+  var date = new Date ();
+  var diff = now.diff (date);
+  document.getElementById ('end2').innerHTML = Math.floor (diff);
+}
+
+</script>
+    
     <script>
 var _hmt = _hmt || [];
 (function() {
@@ -22,6 +39,8 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+
+
 
 </head>
 <body>
@@ -42,7 +61,7 @@ var _hmt = _hmt || [];
       </div>
         <div class="title-ctner">
           <h1 class="home-title">Zexi Han</h1>
-          <p>Code beautified</p>
+          <p>in love with Kaiying for <span id="end2"></span> days</p>
         </div>
     </section>
     <footer class="home-ft">
