@@ -56,10 +56,10 @@ a, a:hover {
 }
 
 .nav-bar {
-  width: 200px;
+  width: 140px;
   margin-top: 12px;
   box-shadow: 0 2px 2px rgba(182, 182, 182, .5);
-  font-size: 1.2rem;
+  font-size: .8rem;
   opacity: 0;
   transform: scaleY(0);
   -webkit-transform: scaleY(0);
@@ -92,7 +92,7 @@ a, a:hover {
 
 .title-ctner {
   position: absolute;
-  top: 20%;
+  top: 30%;
   width: 100%;
   margin-top: -35px;
   text-align: center;
