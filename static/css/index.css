@@ -4,14 +4,11 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "SourceHanSansSC-Light";
+  font-family: 'Noto Sans SC Sliced', sans-serif;
   font-weight: 100;
 }
 
-@font-face {
-  font-family: "SourceHanSansSC-Light";
-  src: url(../fonts/SourceHanSansSC-Light.otf);
-}
+@import url(//fonts.googleapis.com/earlyaccess/notosansscsliced.css);
 
 ul {
   margin: 0;
